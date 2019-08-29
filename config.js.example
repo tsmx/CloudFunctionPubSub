@@ -1,3 +1,5 @@
+// fill in your SMTP credentials and rename to config.js
+
 module.exports.host = "your.smtp.host";
 module.exports.port = 465;
 module.exports.user = "smtp.user";
