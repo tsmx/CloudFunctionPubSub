@@ -4,3 +4,5 @@ module.exports.host = "your.smtp.host";
 module.exports.port = 465;
 module.exports.user = "smtp.user";
 module.exports.pass = "smtp.pass";
+module.exports.mailfFrom = 'sender@abc.com';
+module.exports.mailTo = 'receiver@abc.com';

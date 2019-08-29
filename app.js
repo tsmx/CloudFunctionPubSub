@@ -13,9 +13,9 @@ module.exports.sendMail = function(event, context) {
         }
     });
     transporter.sendMail({
-        from: '"Doc-Base.com" <noreply@doc-base.com>', // sender address
-        to: 'Sebastian Stricker, strs@freenet.de', // list of receivers
-        subject: data.subject, // Subject line
-        text: 'Dear ' + data.user + ', \r\nthank you for registering', // plain text body
+        from: config.mailFrom,
+        to: config.mailTo, 
+        subject: data.subject,
+        text: 'Dear ' + data.user + ', \r\nthank you for using cloud functions :-)',
     }).then(() => { console.log('email sent, payload was: ' + JSON.stringify(data)); });
 };
