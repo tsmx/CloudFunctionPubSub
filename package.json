@@ -1,0 +1,19 @@
+{
+  "name": "cloudfunctionpubsub",
+  "version": "1.0.0",
+  "description": "simple example for GCP cloud functions with pub/sub trigger",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsmx/CloudFunctionPubSub.git"
+  },
+  "author": "Sebastian Stricker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsmx/CloudFunctionPubSub/issues"
+  },
+  "homepage": "https://github.com/tsmx/CloudFunctionPubSub#readme",
+  "dependencies": {
+    "nodemailer": "^6.3.0"
+  }
+}
