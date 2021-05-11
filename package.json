@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/tsmx/CloudFunctionPubSub.git"
   },
-  "author": "Sebastian Stricker",
+  "author": "tsmx <dev@tsmx.net>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tsmx/CloudFunctionPubSub/issues"
